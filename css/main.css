@@ -52,11 +52,19 @@ nav {
 
 .screen {
 	position: absolute;
-	transition: ease-in-out 0s;
+	transition: ease-out .3s;
+}
+
+.right {
+	transition: transform .3s ease-out;
 }
 
 .right {
 	transform: translateX(100%);
+}
+
+.left {
+	transition: transform .3s ease-in;
 }
 
 .left {
